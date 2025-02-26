@@ -1,0 +1,25 @@
+{
+	"name": "protractor-starter-template",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"pretest": "npm install",
+		"test": "protractor"
+	},
+	"devDependencies": {
+		"@types/jasmine": "^3.5.10",
+		"@types/jasminewd2": "^2.0.8",
+		"@types/node": "^14.0.4",
+		"cypress-ntlm-auth": "^4.0.2",
+		"jasmine-spec-reporter": "^5.0.2",
+		"protractor": "^7.0.0",
+		"protractor-beautiful-reporter": "^1.3.6",
+		"protractor-helper": "^4.2.1",
+		"ts-node": "^8.10.1",
+		"typescript": "^3.9.3"
+	},
+	"dependencies": {
+		"chromedriver": "^104.0.0",
+		"xlsx": "^0.17.0"
+	}
+}

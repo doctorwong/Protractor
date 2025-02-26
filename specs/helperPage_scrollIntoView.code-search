@@ -1,0 +1,243 @@
+# Query: helperPage.scrollIntoView
+# Flags: CaseSensitive
+# ContextLines: 1
+
+48 results - 46 files
+
+specs\aggregation_ebnrExpenseRates.spec.js:
+  25          helperPage.waitUntilClickabilityOf(flyOutPO.selectAggregation);
+  26:         browser.actions().mouseMove(flyOutPO.selectAggregation);
+  27          helperPage.click(flyOutPO.selectEBNR);
+
+specs\aggregation_InquiryMod.spec.js:
+  26          helperPage.waitUntilClickabilityOf(flyOutPO.selectAggregation);
+  27:         browser.actions().mouseMove(flyOutPO.selectAggregation);
+  28          helperPage.click(flyOutPO.selectAggregationInquiryMod);
+
+specs\audit_billingRelationsAuditReport.spec.js:
+  23          helperPage.waitUntilClickabilityOf(flyOutPO.selectAudit);
+  24:         browser.actions().mouseMove(flyOutPO.selectAudit);
+  25          helperPage.click(flyOutPO.selectBillingRelationsAudit);
+
+specs\callData_annualPremiumCallInquiryMod.spec.js:
+  23          helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  24:         browser.actions().mouseMove(flyOutPO.selectCallData);
+  25          browser.sleep(2000)
+
+specs\callData_callDataYearOverYearAnalysis.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  26:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  27      helperPage.click(flyOutPO.selectCallDataYearOverYear);
+
+specs\callData_detective.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  26:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  27      browser.sleep(2000)
+
+specs\callData_firstTime.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  26:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  27      browser.sleep(2000)
+
+specs\callData_loadCallData.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  26:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  27      browser.sleep(2000)
+
+specs\callData_otherPremiumExcelLoader.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  26:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  27      helperPage.click(flyOutPO.selectOtherPremiumExcelLoader);
+
+specs\callData_PoolMembershipValidation.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  26:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  27      browser.sleep(2000)
+
+specs\callData_premiumCallExcelLoader.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  26:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  27      browser.sleep(3000)
+
+specs\callData_summarizedCallDataReport.spec.js:
+  26      browser.sleep(3000)
+  27:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  28      browser.sleep(3000)
+
+specs\callData_YoYAnalysis.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectCallData);
+  26:     browser.actions().mouseMove(flyOutPO.selectCallData);
+  27      browser.sleep(2000)
+
+specs\footer.spec.js:
+  26  
+  27:     //helperPage.scrollIntoView(footerPO.sourceLink)
+  28      helperPage.waitForVisibilityOf(footerPO.sourceLink);
+
+  44      //scrollIntoView(footerPO.rpfsNetLink);
+  45:     helperPage.scrollIntoView(footerPO.rpfsNetLink)
+  46      helperPage.waitForVisibilityOf(footerPO.rpfsNetLink);
+
+  60      //scrollIntoView(footerPO.rmLogLink);
+  61:     helperPage.scrollIntoView(footerPO.rmLogLink)
+  62      helperPage.click(footerPO.rmLogLink);
+
+specs\indemnification_allocationInquiryMod.spec.js:
+  29          helperPage.waitUntilClickabilityOf(flyOutPO.selectIndemnification);
+  30:         browser.actions().mouseMove(flyOutPO.selectIndemnification);
+  31          helperPage.click(flyOutPO.selectAllocationInquiryMod);
+
+specs\indemnification_allocationStaging.spec.js:
+  28          helperPage.waitUntilClickabilityOf(flyOutPO.selectIndemnification);
+  29:         browser.actions().mouseMove(flyOutPO.selectIndemnification);
+  30          helperPage.click(flyOutPO.selectAllocationStaging);
+
+specs\indemnification_createAllocationAdjustments.spec.js:
+  29          helperPage.waitUntilClickabilityOf(flyOutPO.selectIndemnification);
+  30:         browser.actions().mouseMove(flyOutPO.selectIndemnification);
+  31          helperPage.click(flyOutPO.selectCreateAllocationAdjustments);
+
+specs\indemnification_createPoolLevelAdjustments.spec.js:
+  29          helperPage.waitUntilClickabilityOf(flyOutPO.selectIndemnification);
+  30:         browser.actions().mouseMove(flyOutPO.selectIndemnification);
+  31          helperPage.click(flyOutPO.selectCreatePoolLevelAdjustments);
+
+specs\manager_billingRelations.js:
+  22          helperPage.waitForVisibilityOf(flyOutPO.selectManager, 5000);
+  23:         browser.actions().mouseMove(flyOutPO.selectManager);
+  24          helperPage.click(flyOutPO.selectBillingRelations)
+
+specs\manager_dataLocks.spec.js:
+  22          helperPage.waitForVisibilityOf(flyOutPO.selectManager, 5000);
+  23:         browser.actions().mouseMove(flyOutPO.selectManager);
+  24          helperPage.click(flyOutPO.selectDataLocks)
+
+specs\manager_deleteSets.spec.js:
+  22          helperPage.waitForVisibilityOf(flyOutPO.selectManager, 5000);
+  23:         browser.actions().mouseMove(flyOutPO.selectManager);
+  24          helperPage.click(flyOutPO.selectDeleteSets)
+
+specs\manager_pfdc.spec.js:
+  28      browser.sleep(2000)
+  29:     browser.actions().mouseMove(flyOutPO.selectManager);
+  30      browser.sleep(2000)
+
+specs\manager_PIMS.spec.js:
+  23          helperPage.waitUntilClickabilityOf(flyOutPO.selectManager);
+  24:         browser.actions().mouseMove(flyOutPO.selectManager);
+  25          browser.sleep(1000)
+
+specs\manager_refreshDatabase.spec.js:
+  20          helperPage.waitUntilClickabilityOf(flyOutPO.selectManager);
+  21:         browser.actions().mouseMove(flyOutPO.selectManager);
+  22          helperPage.click(flyOutPO.selectRefreshDatabase)
+
+specs\manager_servicingCarrierPaymentApproval.spec.js:
+  26          helperPage.waitUntilClickabilityOf(flyOutPO.selectManager);
+  27:         browser.actions().mouseMove(flyOutPO.selectManager);
+  28          helperPage.waitForVisibilityOf(flyOutPO.selectSCPaymentApproval, 5000);
+
+specs\memberCompany_createDistribution.spec.js:
+  30      helperPage.waitUntilClickabilityOf(flyOutPO.selectMemberCompany);
+  31:     browser.actions().mouseMove(flyOutPO.selectMemberCompany);
+  32      helperPage.waitForVisibilityOf(flyOutPO.selectCreateDistribution, 5000);
+
+specs\memberCompany_createReapportionment.spec.js:
+  30      helperPage.waitUntilClickabilityOf(flyOutPO.selectMemberCompany);
+  31:     browser.actions().mouseMove(flyOutPO.selectMemberCompany);
+  32      helperPage.waitForVisibilityOf(flyOutPO.selectCreateReapportionment, 5000);
+
+specs\memberCompany_mcLoadToOracle.spec.js:
+  29      helperPage.waitUntilClickabilityOf(flyOutPO.selectMemberCompany);
+  30:     browser.actions().mouseMove(flyOutPO.selectMemberCompany);
+  31      helperPage.click(flyOutPO.selectMcLoadToOracle);
+
+specs\memberCompany_poolInvoices.spec.js:
+  29      helperPage.waitUntilClickabilityOf(flyOutPO.selectMemberCompany);
+  30:     browser.actions().mouseMove(flyOutPO.selectMemberCompany);
+  31      helperPage.click(flyOutPO.selectPoolInvoices);
+
+specs\memberCompany_residualMarketDTVIFiles.spec.js:
+  29      helperPage.waitUntilClickabilityOf(flyOutPO.selectMemberCompany);
+  30:     browser.actions().mouseMove(flyOutPO.selectMemberCompany);
+  31      helperPage.click(flyOutPO.selectResidualMarketDTVIFiles);
+
+specs\memberCompany_specialDistribution.spec.js:
+  29      helperPage.waitUntilClickabilityOf(flyOutPO.selectMemberCompany);
+  30:     browser.actions().mouseMove(flyOutPO.selectMemberCompany);
+  31      helperPage.waitForVisibilityOf(flyOutPO.selectSpecialDistributionLoader, 5000);
+
+specs\ratios_premiumAdjustment.spec.js:
+  22          helperPage.waitUntilClickabilityOf(flyOutPO.selectRatios);
+  23:         browser.actions().mouseMove(flyOutPO.selectRatios);
+  24          helperPage.click(flyOutPO.selectPremiumAdjustment)
+
+specs\ratios_premiumRatioExcelLoader.spec.js:
+  22          helperPage.waitUntilClickabilityOf(flyOutPO.selectRatios);
+  23:         browser.actions().mouseMove(flyOutPO.selectRatios);
+  24          helperPage.click(flyOutPO.selectRatioPremiumExcel)
+
+specs\ratios_premiumRatioReport.spec.js:
+  22          helperPage.waitUntilClickabilityOf(flyOutPO.selectRatios);
+  23:         browser.actions().mouseMove(flyOutPO.selectRatios, 5000);
+  24          helperPage.click(flyOutPO.selectPremiumRatioReport)
+
+specs\ratios_ratioStaging.spec.js:
+  22          helperPage.waitUntilClickabilityOf(flyOutPO.selectRatios);
+  23:         browser.actions().mouseMove(flyOutPO.selectRatios);
+  24          helperPage.click(flyOutPO.selectRatioStaging)
+
+specs\reports_callData.spec.js:
+  27      helperPage.waitUntilClickabilityOf(flyOutPO.selectReports);
+  28:     browser.actions().mouseMove(flyOutPO.selectReports);
+  29      helperPage.click(flyOutPO.selectCallDataReport);
+
+specs\servicingCarrier_carrierInformation.spec.js:
+  24          helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  25:         browser.actions().mouseMove(flyOutPO.selectServicingCarrier, 5000);
+  26          browser.sleep(1000)
+
+specs\servicingCarrier_loadToOracle.spec.js:
+  23      helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  24:     browser.actions().mouseMove(flyOutPO.selectServicingCarrier);
+  25      helperPage.click(flyOutPO.selectScLoadToOracle);
+
+specs\servicingCarrier_np4ErrorManagement.spec.js:
+  25      helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  26:     browser.actions().mouseMove(flyOutPO.selectServicingCarrier);
+  27      helperPage.click(flyOutPO.selectErrorManagement);
+
+specs\servicingCarrier_np4ExcelLoader.spec.js:
+  26      helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  27:     browser.actions().mouseMove(flyOutPO.selectServicingCarrier);
+  28      helperPage.click(flyOutPO.selectNP4ExcelLoader);
+
+specs\servicingCarrier_np4InquiryMod.spec.js:
+  28      helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  29:     browser.actions().mouseMove(flyOutPO.selectServicingCarrier);
+  30      helperPage.click(flyOutPO.selectInquiryMod);
+
+specs\servicingCarrier_np4Quarter.spec.js:
+  32          helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  33:         browser.actions().mouseMove(flyOutPO.selectServicingCarrier);
+  34          browser.sleep(1000)
+
+specs\servicingCarrier_payments.spec.js:
+  27              helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  28:             browser.actions().mouseMove(flyOutPO.selectServicingCarrier, 5000);
+  29              helperPage.click(flyOutPO.selectPayments, 5000);
+
+specs\servicingCarrier_pdfcAttachments.spec.js:
+  24              helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  25:             browser.actions().mouseMove(flyOutPO.selectServicingCarrier, 5000);
+  26              browser.sleep(500)
+
+specs\servicingCarrier_scaRates.spec.js:
+  27          helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  28:         browser.actions().mouseMove(flyOutPO.selectServicingCarrier, 5000);
+  29          helperPage.click(flyOutPO.selectScaRates, 5000);
+
+specs\servicingCarrier_scaRatesValidation.spec.js:
+  24              helperPage.waitUntilClickabilityOf(flyOutPO.selectServicingCarrier);
+  25:             browser.actions().mouseMove(flyOutPO.selectServicingCarrier, 5000);
+  26              browser.sleep(500)
